@@ -28,7 +28,7 @@
 		<script type="text/javascript" src="lib/vendor/plupload/js/plupload.full.min.js" charset="UTF-8"></script>
 		<script type="text/javascript" src="lib/assets/js/FileUploader.js"></script>
 		<script type="text/javascript">
-			uploader1 = new FileUploader({
+			file_uploader = new FileUploader({
 				upload_url		: "fileUpload.cfm",
 				handle			: "pickFiles",
 				drop_element	: "uploader",
